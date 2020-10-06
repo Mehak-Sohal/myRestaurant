@@ -1,0 +1,72 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #571d02;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 30px;
+    margin-right: 1px;
+    object-fit: contain;
+}
+
+.navbar > a {
+    color: #fff;
+}
+
+.navbar > a:hover {
+    color: #CBC5C1;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar-option {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;;   
+}
+
+.navbar-option:hover {
+    color: #CBC5C1;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.navbar-optionLineOne {
+    font-size: 10px;
+}
+
+.navbar-optionLineTwo {
+    font-size: 13px;
+}
+
+.navbar-optionBasket {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-optionBasket:hover {
+    color: #CBC5C1;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.navbar-basketCount {
+    margin-right: 10px;
+    margin-left: 10px;
+}

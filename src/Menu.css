@@ -1,0 +1,13 @@
+.menu {
+    padding: 8px;
+    margin: 8px;
+}
+
+.menu-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 18px;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}

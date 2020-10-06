@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    padding: 12px;
+}
+
+.about-left {
+    flex: 0.4;
+}
+
+.about-left > img {
+    display: flex;
+    object-fit: contain;
+    max-width: 400px;
+    max-height: 500px;
+    padding: 8px;
+}
+
+.about-right {
+    flex: 0.6;
+    text-align: justify;
+}

@@ -1,0 +1,39 @@
+.contact {
+    background-image: url(https://i.pinimg.com/originals/93/fb/97/93fb975a0c3ac97d5c19486a2cff694e.jpg);
+    z-index: -1;
+    background-size: contain;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    z-index: 10;
+    background-color: #edeff2;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+textarea {
+    
+    height: 100px;
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+.submit {
+    border: 1px solid;
+    border-radius: 4px;
+    background-color:#b0350c;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
